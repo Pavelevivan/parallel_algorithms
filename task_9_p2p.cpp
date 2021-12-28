@@ -57,7 +57,7 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
         cout << "Total sum of array: " << vec_sum_loc << endl;
-        cout << "Execution time for reduce method: " << finish - start << endl;
+        cout << "Execution time for cascade method: " << finish - start << endl;
     }
 
     MPI_Finalize();
