@@ -56,8 +56,8 @@ int main(int argc, char **argv)
 
     if (rank == 0)
     {
-        cout << "sum is: " << vec_sum_loc << endl;
-        cout << "The elapsed time for P2P process is " << finish - start << "seconds" << endl;
+        cout << "Total sum of array: " << vec_sum_loc << endl;
+        cout << "Execution time for reduce method: " << finish - start << endl;
     }
 
     MPI_Finalize();

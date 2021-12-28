@@ -46,8 +46,8 @@ int main(int argc, char **argv)
 
     if (rank == 0)
     {
-        cout << "The final sum is " << vec_sum << endl;
-        cout << "The time is " << finish - start << " seconds" << endl;
+        cout << "Total sum of array: " << vec_sum << endl;
+        cout << "Execution time for reduce method: " << finish - start << " seconds" << endl;
     }
 
     MPI_Finalize();
